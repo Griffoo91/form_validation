@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Client-side validation form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="signup" class="form">
+        <h1>Sign Up</h1>
+        <div class="form-field">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Griffine"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="abc@gmail.com"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+
+        <div class="form-field">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="*********"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+
+        <div class="form-field">
+          <label for="confirm-password">Comfirm Password:</label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="********"
+            autocomplete="off"
+          />
+          <small></small>
+        </div>
+
+        <div class="form-field">
+          <button type="submit" class="btn" value="sign Up">Sign Up</button>
+        </div>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
